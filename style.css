@@ -1,0 +1,290 @@
+* {
+    font-family: 'Synonym', sans-serif;
+
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Amulya', sans-serif;
+    color: var(--accent);
+    text-decoration: underline;
+
+}
+
+:root {
+    --primary: #BD0516;
+    --secondary: #1BB563;
+    --accent: #BDAEAE;
+}
+
+.MyBg-primary{
+    background-color: var(--primary);
+}
+.Myprimary{
+    color: var(--primary);
+}
+.MyBg-secondary{
+    background-color: var(--secondary);
+}
+.Mysecondary{
+    color: var(--secondary);
+}
+.MyBg-accent{
+    background-color: var(--accent);
+}
+.Myaccent{
+    color: var(--accent);
+}
+body{
+    background-color: var(--secondary);
+}
+.LogoSito{
+    width: 100px;
+    border-radius: 15px;
+}
+    
+    
+
+.margineHeader{
+    margin-bottom: 150px;
+}
+#MyNav{
+    transition: 1000ms;
+    
+}
+.floatingNavbar{
+    width: 95%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+    border-radius: 10px;
+    
+    border: 2px solid white;
+}
+
+.card-img-top{
+ 
+  
+    border-radius: 50px;
+    
+    box-shadow: 5px 5px 5px 5px  #d74242; 
+    margin-bottom: 20px;
+}
+    
+    
+.card{
+    border: none;
+
+}
+.card-text{
+    text-align: center;
+    text-decoration: double;
+    font-size: large;
+}
+.testiCard{
+    text-align: center;
+    color: #BD0516;
+    font-weight: bold;
+    text-decoration: underline;
+    letter-spacing: 1px;
+}
+.swiper {
+    width: 600px;
+    height: 300px;
+  }
+
+
+
+ 
+
+
+  
+/* @import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap"); */
+
+
+
+
+.mainE {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--secondary);
+  
+}
+
+.containerE {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+
+
+.review {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  background-color: #12192c;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-family: "Open Sans", sans-serif;
+  border-radius: 12px;
+}
+
+#person-img {
+  width: 150px;
+  height: 150px;
+  background-size: cover;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.5);
+}
+
+#author {
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-top: 10px;
+  color:#FFFB7D
+}
+
+#job {
+  text-transform: uppercase;
+  line-height: 150%;
+  margin-bottom: 10px;
+  color: #85FFBD;
+}
+
+#info {
+  height: 100px;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.btn {
+  text-decoration: none;
+  border-style: none;
+  font-size: 30px;
+  margin: 0 10px;
+  color: #85FFBD;
+  cursor: pointer;
+  background-color:#12192c;
+}
+.credit a{
+  text-decoration: none;
+  color: #000;
+  font-weight: 800;
+  }
+  
+  .credit {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+    color:#000;
+    text-align: center;
+  }
+
+.annunci:hover{
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+}
+
+.cardTemplate{
+     /* width: 20vw; */
+    height: 30vh; 
+    background-color: rgb(37, 122, 37);
+    color: #faf2f2;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 10px;
+    border: 2px solid red;
+    font-weight: bolder;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    opacity: 1;
+}
+    
+.cardTemplate:hover{
+ margin: 5px;
+ border: 3px solid rgb(253, 249, 249);
+ color: #BD0516;
+ font-size: xx-large;
+
+}
+.PCustom{
+  font-size: x-large;
+  text-decoration: underline;
+}
+.PCustom:hover{
+  font-size: xx-large;
+}
+
+.h2Custom{
+  color: #050404;
+  letter-spacing: 4px;
+  font-size: xx-large;
+  background-color: #05bd17;
+  border-radius: 50px;
+  text-align: center;
+}
+  
+ 
+  
+
+.grad{
+/* background-image: linear-gradient(#1BB563, #6DD03F) */
+background-image:url(./media/sfondo\ annunci\ bianco.avif);
+background-size: contain;
+
+
+}
+
+#articleCount{
+  color: red;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.fa-heart:hover{
+  cursor: pointer;
+}
+
+.Nsnumeri{
+  color: black;
+  text-align: center;
+  margin-top: 10px;
+  font-size: larger;
+  text-transform: uppercase;
+}
+
+.Nsnumerititle{
+  color: red;
+  margin-top: 30px;
+  font-size: xx-large;
+  font-weight: bolder;
+}
+.dati{
+  margin-top: 200px;
+}
+
+.acc{
+  background-color: red;
+}
